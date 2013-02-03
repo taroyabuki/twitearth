@@ -1,4 +1,4 @@
 twitearth
 =========
 
-Masuup of Twitter and Google Maps
+Mashup of Twitter and Google Maps
