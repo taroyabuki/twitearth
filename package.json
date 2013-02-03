@@ -1,0 +1,20 @@
+{
+  "author": "@yabuki",
+  "name": "twitearth",
+  "description": "Mashup of Twitter and Google Maps",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/taroyabuki/twitearth"
+  },
+  "dependencies": {
+    "socket.io": "*",
+    "express": "*",
+    "ntwitter": "*"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  }
+}

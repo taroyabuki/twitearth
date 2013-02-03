@@ -30,12 +30,12 @@ var server = http.createServer(app).listen(port, function() {
 });
 var io = require('socket.io').listen(server);
 
-//var twitter = require('ntwitter');
-var twitter = require('immortal-ntwitter');
+var twitter = require('ntwitter');
+//var twitter = require('immortal-ntwitter');
 var tw = new twitter(require('./config').getKeys());
 
-//tw.stream('statuses/filter', {'locations': '-180,-90,180,90'}, function(stream) {
-tw.immortalStream('statuses/filter', {'locations': '-180,-90,180,90'}, function(stream) {
+tw.stream('statuses/filter', {'locations': '-180,-90,180,90'}, function(stream) {
+//tw.immortalStream('statuses/filter', {'locations': '-180,-90,180,90'}, function(stream) {
   stream.on('data', function (data) {
     if (data.coordinates) {
       //console.log(data);
