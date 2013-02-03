@@ -7,6 +7,10 @@ Mashup of Twitter and Google Maps
 
 http://youtu.be/luR0oPi8Zes
 
+## Trial
+
+http://twitearth.unfindable.net/
+
 ## Installation
 
 Install npm.
