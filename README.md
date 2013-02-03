@@ -30,7 +30,12 @@ Install dependent libraries. To run on [AppFog](https://www.appfog.com/), you sh
 
 ```bash
 cd twitearth
-npm install socket.io express ntwitter
+npm install
+```
+
+If you want to use immortal-ntwitter instead of ntwitter, execute following commands:
+
+```bash
 cd node_modules
 git clone https://github.com/horixon/immortal-ntwitter.git
 cd ..
@@ -55,7 +60,8 @@ Request `http://localhost:3000/` from web browsers.
 
 Tested PaaS are following:
 
-- [AppFog](https://www.appfog.com/)
+- [AppFog](https://www.appfog.com/) (ntwitter and immortal-ntwitter)
+- [Heroku](https://www.heroku.com/) (ntwitter only)
 
 ## Licence
 
