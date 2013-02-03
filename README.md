@@ -1,7 +1,7 @@
 twitearth
 =========
 
-Mashup of Twitter and Google Maps
+Mashup of Twitter Streaming API and Google Maps API
 
 ## Movie
 
