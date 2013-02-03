@@ -33,7 +33,7 @@ cd twitearth
 npm install
 ```
 
-If you want to use immortal-ntwitter instead of ntwitter, execute following commands:
+If you want to use [immortal-ntwitter](https://github.com/horixon/immortal-ntwitter) instead of ntwitter, execute following commands:
 
 ```bash
 cd node_modules
