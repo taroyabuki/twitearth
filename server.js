@@ -19,16 +19,15 @@
  */
 
 var express = require('express')
-, http = require('http');
-
-var app = express();
-app.use(express.static(__dirname + '/public'));
+  , app = express()
+  , server = require('http').createServer(app)
+  , io = require('socket.io').listen(server);
+ 
 //port: Heroku || AppFog || 3000
 var port = process.env.PORT || process.env.VMC_APP_PORT || 3000;
-var server = http.createServer(app).listen(port, function() {
-  console.log('Express server listening on port ' + port);
-});
-var io = require('socket.io').listen(server);
+server.listen(port);
+ 
+app.use(express.static(__dirname + '/public'));
 
 var twitter = require('ntwitter');
 //var twitter = require('immortal-ntwitter');
