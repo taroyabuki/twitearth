@@ -2,7 +2,7 @@
   "author": "@yabuki",
   "name": "twitearth",
   "description": "Mashup of Twitter Streaming API and Google Maps API",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "url": "https://github.com/taroyabuki/twitearth"
   },
