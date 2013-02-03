@@ -32,6 +32,13 @@ git clone https://github.com/horixon/immortal-ntwitter.git
 cd ..
 ```
 
+Make config.js that contains Twitter keys.
+
+```bash
+cp config.template config.js
+vi config.js
+```
+
 ## Running
 
 ```bash
