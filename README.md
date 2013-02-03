@@ -26,7 +26,7 @@ Install dependent libraries. To run on [AppFog](https://www.appfog.com/), you sh
 
 ```bash
 cd twitearth
-npm install socket.io express
+npm install socket.io express ntwitter
 cd node_modules
 git clone https://github.com/horixon/immortal-ntwitter.git
 cd ..
