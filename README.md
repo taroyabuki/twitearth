@@ -7,9 +7,10 @@ Mashup of Twitter Streaming API and Google Maps API
 
 http://youtu.be/luR0oPi8Zes
 
-## Trial
+## Trials
 
-http://twitearth.unfindable.net/
+- http://twitearth.unfindable.net/
+- http://twitearth.herokuapp.com/
 
 ## Installation
 
